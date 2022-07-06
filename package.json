@@ -1,0 +1,30 @@
+{
+  "name": "canvas-test",
+  "version": "1.0.0",
+  "description": "HTMLCanvas + typescript の練習（復習",
+  "scripts": {
+    "build": "npm run build:typescript ; npm run build:webpack",
+    "build:typescript": "npx tsc",
+    "build:webpack": "npx webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentai-mayo/canvas-test.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "canvas"
+  ],
+  "author": "mentai-mayo",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mentai-mayo/canvas-test/issues"
+  },
+  "homepage": "https://github.com/mentai-mayo/canvas-test#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
